@@ -15,7 +15,8 @@ cd build
 cmake ..
 make
 ```
-should work ().
+should work.
+
 A more robust way would be to pass the installation path of xgboost library as 
 ```
 -DCMAKE_PREFIX_PATH=<\path\to\xgboost>
