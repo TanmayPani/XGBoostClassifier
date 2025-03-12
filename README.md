@@ -1,5 +1,5 @@
 ### XGBoostClassifier
-A single C++ code that uses almost the full functionalities of the [xgboost]([dmlc/xgboost: Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow (github.com)](https://github.com/dmlc/xgboost/tree/master)) library without depending on any bindings. This is a trimmed down version of the [xgboost-cli backend]( https://github.com/dmlc/xgboost/blob/master/src/cli_main.cc) which can be found here:
+A single C++ code that uses almost the full functionalities of the [xgboost](https://github.com/dmlc/xgboost/tree/master) library without depending on any bindings. This is a trimmed down version of the [xgboost-cli backend]( https://github.com/dmlc/xgboost/blob/master/src/cli_main.cc) which can be found here:
 
 ## Build instructions
 All the following instructions are only tested for Ubuntu-22.04
