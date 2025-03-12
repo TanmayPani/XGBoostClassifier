@@ -39,7 +39,7 @@ After compiling the code using `make`,
 cd ..
 ./build/XGBoostClassifier --help
 ```
-To get info on all the arguments that can be passes to `int main(...)` function in  `XGBoostClassifier.cpp`. Information for most of the parameters for training using `xgboost::Learner` can be found here [here]([XGBoost Parameters — xgboost 2.0.3 documentation](https://xgboost.readthedocs.io/en/stable/parameter.html)). 
+To get info on all the arguments that can be passes to `int main(...)` function in  `XGBoostClassifier.cpp`. Information for most of the parameters for training using `xgboost::Learner` can be found here [here](https://xgboost.readthedocs.io/en/stable/parameter.html). 
 
 The most essential arguments that are needed to run the code are,
 1) `--training-data` : path to file containing training dataset.
@@ -65,7 +65,7 @@ The example datasets are in LIBSVM format where rows are written as,
 label:weight  0:feature_0  1:feature_1  2:feature_2  ...  (nfeatures-1):feature_(nfeatures-1)
 ```
 
-Refer [here]([Text Input Format of DMatrix — xgboost 2.0.3 documentation](https://xgboost.readthedocs.io/en/stable/tutorials/input_format.html)) for more information on different input formats.
+Refer [here](https://xgboost.readthedocs.io/en/stable/tutorials/input_format.html) for more information on different input formats.
 
 ## Outlook
 Will add more information here after I refine the code a little more...
