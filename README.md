@@ -7,7 +7,8 @@ All the following instructions are only tested for Ubuntu-22.04
 1) cmake (preferred)
 2) pre built xgboost library
 ### Using CMake
-If xgboost was built from source in a conda environment with `-DCMAKE_INSTALL_PREFIX=$CONDA_PREFIX` then                                                   ```
+If xgboost was built from source in a conda environment with `-DCMAKE_INSTALL_PREFIX=$CONDA_PREFIX` then
+
 ```
 mkdir build 
 cd build 
